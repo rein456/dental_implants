@@ -484,7 +484,11 @@ body {
 }
 
 .services__wrapper-slider {
-    padding-bottom: 1.75rem;
+}
+
+.services__btns {
+    margin-bottom: 10px;
+    justify-content: end !important;
 }
 
 .services__counter {
@@ -1907,7 +1911,7 @@ body:after {
 
     .services__title {
         font-size: 1.5rem;
-        margin-bottom: 1.75rem;
+        margin-bottom: 2rem;
     }
 
     .services__type {
@@ -3635,5 +3639,11 @@ body:after {
 
     .installment__link:hover {
         color: #fff1ee;
+    }
+}
+
+@media (max-width: 991px) {
+    .hero__showcase {
+        display: none !important;
     }
 }
